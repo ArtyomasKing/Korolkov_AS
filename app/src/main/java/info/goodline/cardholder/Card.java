@@ -6,6 +6,7 @@ import android.os.Parcelable;
 public class Card implements Parcelable {
     private int id;
     private String title;
+
     private String photo;
 
     protected Card(Parcel in) {
